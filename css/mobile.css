@@ -1,0 +1,134 @@
+
+
+@media screen and (max-width: 576px) {
+    /* Kiểu CSS chỉ dành cho màn hình di động với độ phân giải tối đa là 576px */
+    #banner {
+        font-size: 12px;
+    }
+
+    #banner h1 {
+        font-size: 24px;
+    }
+    
+    /* Phần Navbar */
+    .menu-bar {
+        height: 240px;
+        display: block;
+        font-size: 14px;
+    }
+
+    #nav-bar {
+        text-align: start;
+        margin-bottom: 32px;
+        border: none;
+    }
+
+    #nav-bar .margin-layout-menubar {
+        padding: 0 32px;
+    }
+
+        .menu-bar a {
+            border-right: none;
+            padding: 0;
+            display: block;
+            padding-top: 32px;
+        }
+
+        .menu-bar a:first-child {
+            border-left: none;
+        }
+
+    #avatar-bg {
+        display: none;
+    }
+    
+    #avatar {
+        display: none;
+    }
+    
+
+    /* Phần Thông tin cá nhân*/
+    #about {
+        padding: 80px 24px;
+    }
+    #target {
+        padding-right: 0;
+        padding-bottom: 80px;
+    }
+    #target p {
+        font-size: 14px;
+    }
+
+
+    #about .target-info {
+        display: block;
+    }
+
+    #personal-info {
+        padding-left: 0;
+    }
+    .info li  {
+        font-size: 14px;
+    }
+
+
+    /*Phần Thông tin nghề nghiệp*/
+    .container-infos {
+        font-size: 14px;
+    }
+
+    
+    /*Chứng chỉ giải thưởng*/
+
+    .certificates {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /** tạo border left cho phần tử chẳn **/
+    .certificates .certificate-box:nth-child(even) img {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .certificate-box {
+        text-align: center;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .certificate-box div p {
+        font-size: 14px;
+    }
+
+    .certificate-box img {
+        height: auto;
+        width: 80%;
+    }
+
+    .certificates .certificate-box:nth-child(1),
+    .certificates .certificate-box:nth-child(2) {
+        border-bottom: 1px solid #d6c08d;
+    }
+
+
+    /*Dự án*/
+    #timeline-box {
+        background-color: #00aae4;
+        border-radius: 8px;
+        margin: 0;
+        width: 30%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+
+    /*footer*/
+    #footer .container ul li {
+        font-size: 12px;
+    }
+
+    #footer .container ul li a i {
+        font-size: 12px;
+    }
+}

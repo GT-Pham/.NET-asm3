@@ -1,0 +1,66 @@
+
+
+@media screen and (max-width: 992px) {
+    /* Kiểu CSS chỉ dành cho màn hình tablet với độ phân giải tối đa là 992px */
+
+
+    /* Phần Navbar */
+    #nav-bar .margin-layout-menubar {
+        width: 100%;
+        padding: 0 24px;
+    }
+    .menu-bar {
+        font-size: 12px;
+    }
+
+    #avatar-bg {
+        flex: 0.5;
+    }
+    
+    #avatar {
+        display: none;
+    }
+
+
+    /* Phần Thông tin cá nhân*/
+    #target {
+        padding-right: 50px;
+    }
+
+
+    /*Chứng chỉ giải thưởng*/
+    .certificate-box img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    /* Phần dự án*/
+
+    #project .container .row {
+        padding-left: 0;
+    }
+    
+    #project-card-title,
+    #project-card-title + div  {
+        padding: 16px;
+    }
+
+    .project-card-icon {
+        border-top: 1px solid #dcdcdc;
+        border-bottom: 1px solid #dcdcdc;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+
+
+    /*Footer*/
+    #footer .container ul li {
+        font-size: 14px;
+    }
+
+    #footer .container ul li a i {
+        font-size: 16px;
+    }
+
+}
